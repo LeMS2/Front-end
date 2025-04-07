@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.0/dist/united/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="icon" href="https://images.rawpixel.com/dark_image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcm01MDNiYXRjaDItZS0wNi5wbmc.png" type="image/png">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="icon"
+          href="https://images.rawpixel.com/dark_image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcm01MDNiYXRjaDItZS0wNi5wbmc.png"
+          type="image/png">
     <script src="https://getbootstrap.com/docs/5.3/assets/js/color-modes.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <style>
@@ -43,42 +44,7 @@
             border-radius: 5px;
         }
     </style>
-
 </head>
-
-<header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="color: #000000">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">
-                        <i class="fa-solid fa-play"></i> Início
-                    </a></li>
-                    <li class="nav-item"><a class="nav-link" href="salgados.html">
-                        <i class="fa-solid fa-burger"></i> Salgados
-                    </a></li>
-                    <li class="nav-item"><a class="nav-link" href="doces.html">
-                        <i class="fa-solid fa-cookie-bite"></i> Doces
-                    </a></li>
-                    <li class="nav-item"><a class="nav-link" href="lanches.html">
-                        <i class="fa-solid fa-utensils"></i> Lanches
-                    </a></li>
-                    <li class="nav-item"><a class="nav-link" href="vegetarianos.html">
-                        <i class="fa-solid fa-seedling"></i> Vegetarianos
-                    </a></li>
-                    <li class="nav-item"><a class="nav-link" href="contato.html">
-                        <i class="fa-solid fa-address-book"></i> Contato
-                    </a></li>
-
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
-
 <body>
 <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
     <symbol id="check2" viewBox="0 0 16 16">
@@ -96,46 +62,54 @@
     </symbol>
 </svg>
 
-<h1>Lanches</h1>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="color: #000000">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-<div class="product">
-    <img src="img/salgado-4.jpg" alt="Nuggets">
-    <h2>Nuggets</h2>
-    <p>Deliciosos nuggets de frango, empanados na medida certa. Acompanha batatas fritas sequinhas.
-        <br>Acompanha molho de pimenta irresistível.</p>
-    <p class="price">🔥 Tudo isso por apenas R$ 17,00! Peça agora e aproveite!</p>
+            <input type="text" id="search-bar" placeholder="Buscar produtos...">
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-solid fa-play"></i> Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="salgados.html"><i class="fa-solid fa-burger"></i> Salgados</a></li>
+                    <li class="nav-item"><a class="nav-link" href="doces.html"><i class="fa-solid fa-cookie-bite"></i> Doces</a></li>
+                    <li class="nav-item"><a class="nav-link" href="lanches.html"><i class="fa-solid fa-utensils"></i> Lanches</a></li>
+                    <li class="nav-item"><a class="nav-link" href="vegetarianos.html"><i class="fa-solid fa-seedling"></i> Vegetarianos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html"><i class="fa-solid fa-address-book"></i> Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+
+
+<div class="w3-content w3-display-container">
+    <img class="mySlides" src="img/foto1.jpg" style="width:100%">
+    <img class="mySlides" src="img/foto2.jpg" style="width:100%">
+    <img class="mySlides" src="img/foto3.jpg" style="width:100%">
+    <img class="mySlides" src="img/foto4.jpg" style="width:100%">
+    <img class="mySlides" src="img/foto5.jpg" style="width:100%">
+    <img class="mySlides" src="img/foto6.jpg" style="width:100%">
+    <img class="mySlides" src="img/foto7.jpg" style="width:100%">
+    <img class="mySlides" src="img/foto8.jpg" style="width:100%">
+
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
 </div>
 
-<div class="product">
-    <img src="img/lanches-1.jpg" style="width: 276px; height: 343px" alt="Hamburger">
-    <h2>Hamburger</h2>
-    <p>Um suculento hambúrguer artesanal, preparado com carne de qualidade e temperos especiais.
-        <br>Acompanha molho especial e batatas crocantes.</p>
-    <p class="price">🔥 Tudo isso por apenas R$ 22,00! <br>Peça agora e aproveite!</p>
-</div>
+<br><br>
 
-<div class="product">
-    <img src="img/lanches-2.jpg" style="width: 276px; height: 343px" alt="Shawarma">
-    <h2>Shawarma</h2>
-    <p>Uma explosão de sabores do Oriente Médio! Carne suculenta grelhada lentamente, servida com legumes frescos e molho de alho envolto em um pão sírio macio.</p>
-    <p class="price">🔥 Tudo isso por apenas R$ 25,00! Peça agora e aproveite!</p>
-</div>
+<div id="product-container"></div>
 
-<div class="product">
-    <img src="img/lanches-3.jpg" style="width: 276px; height: 343px" alt="Empadão">
-    <h2>Empadão</h2>
-    <p>Uma empada grande e recheada com frango cremoso e temperado, envolto por uma massa amanteigada e crocante. Uma verdadeira delícia caseira!</p>
-    <p class="price">🔥 Tudo isso por apenas R$ 18,00! Peça agora e aproveite!</p>
-</div>
 
-<div class="product">
-    <img src="img/lanches-4.jpg" style="width: 276px; height: 343px" alt="Misto">
-    <h2>Misto Quente</h2>
-    <p>O clássico misto quente! <br>
-        <br>
-        Pão crocante, queijo derretido e presunto grelhado na chapa para um sabor irresistível.</p>
-    <p class="price">🔥 Tudo isso por apenas R$ 12,00! Peça agora e aproveite!</p>
-</div>
+<script src="script.js"></script>
+
 
 <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
     <button class="btn btn-bd-primary py-0 dropdown-toggle d-flex align-items-center"
@@ -189,12 +163,36 @@
     </ul>
 </div>
 
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
 
-</body>
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = x.length
+        }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+    }
+</script>
 
 <footer class="text-center mt-4">
     <p>&copy; Sabor & Arte, 2025</p>
 </footer>
+<br><br>
+<br>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
