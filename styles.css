@@ -179,3 +179,32 @@ footer p {
 .buy-btn i {
     margin-right: 8px; /* Espaço entre o ícone e o texto */
 }
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffffff;
+    border-radius: 999px;
+    padding: 0.5rem 1rem;
+    max-width: 400px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.search-container i {
+    color: #ffffff;
+    margin-right: 0.5rem;
+}
+
+#search-bar::placeholder {
+    color: rgba(255, 255, 255, 0.84); /* preto */
+    opacity: 1; /* garante visibilidade total */
+}
+
+.search-container input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 1rem;
+    background: transparent;
+    color: #333;
+}
