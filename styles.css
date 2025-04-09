@@ -109,7 +109,7 @@ form {
 
 footer {
     background-color: #e95420;
-    padding: 9px;
+    padding: 6px;
     bottom: 0;
     position: fixed;
     left: 0;
@@ -120,7 +120,7 @@ footer {
 }
 footer p {
     color: #fff;
-    font-size: 18px;
+    font-size: 15px;
     margin: 10px;
     margin-top: -3px;
     justify-content: center; /* Centraliza horizontalmente */
