@@ -109,7 +109,7 @@ form {
 
 footer {
     background-color: #e95420;
-    padding: 6px;
+    padding: 7px;
     bottom: 0;
     position: fixed;
     left: 0;
@@ -161,7 +161,7 @@ footer p {
     color: #27ae60;
     font-weight: bold;
 }
-.buy-btn {
+/* .buy-btn {
     display: inline-block;
     background-color: #228B22;
     color: #fff;
@@ -178,7 +178,7 @@ footer p {
 }
 .buy-btn i {
     margin-right: 8px; /* Espaço entre o ícone e o texto */
-}
+} */
 
 .search-container {
     display: flex;
