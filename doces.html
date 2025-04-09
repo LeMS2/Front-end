@@ -97,44 +97,73 @@
 <h1>Bolos & Doces</h1>
 
 <div class="product">
-    <img src="img/doce.jpg" style="width: 276px; height: 343px" alt="Rosquinha">
+    <img src="img/doce.jpg" style="width: 276px; height: 343px"
+         alt="Rosquinha"
+         class="product-image"
+         data-product-id="rosquinha">
     <h2>Rosquinhas</h2>
-    <p>Massa fofinha, cobertura irresistível e recheios cremosos! Experimente os sabores, feitos com ingredientes selecionados para uma explosão de sabor!
+    <p>Massa fofinha, cobertura irresistível e recheios cremosos! Experimente os sabores, feitos com ingredientes selecionados para uma explosão de sabor!</p>
     <p class="price">🔥 Apenas R$ 7,99 cada (ou leve 3 por R$ 21,99)</p>
-</div>
+  </div>   
 
-<div class="product">
-    <img src="img/doce-1.jpg" style="width: 276px; height: 343px" alt="Muffins">
+
+  <div class="product">
+    <img src="img/doce-1.jpg" style="width: 276px; height: 343px"
+         alt="muffins"
+         class="product-image"
+         data-product-id="muffins">
     <h2>Muffins</h2>
     <p>Perfeitos para qualquer momento do dia, nossos muffins são macios, irresistíveis e recheados com muito sabor!
+    </p>
+    
     <p class="price">🔥 Unidade por R$ 6,99 <br>
         🔥 Combo com 4 unidades por R$ 24,99</p>
-</div>
+
+  </div>
 
 <div class="product">
-    <img src="img/doce-2.jpg" style="width: 276px; height: 343px" alt="palha">
+    <img src="img/doce-2.jpg" style="width: 276px; height: 343px"
+         alt="palhaitaliana"
+         class="product-image"
+         data-product-id="palhaitaliana">
     <h2>Palha Italiana</h2>
-    <p>Camadas de biscoito e um brigadeiro super cremoso se unem para criar essa sobremesa irresistível! Duo perfeito de crocância e doçura.</p>
+    <p>Camadas de biscoito e um brigadeiro super cremoso se unem para criar essa sobremesa irresistível! Duo perfeito de crocância e doçura!
+    </p>
+    
     <p class="price">🔥 Unidade por R$ 6,99 <br>
         🔥 Combo com 4 unidades por R$ 24,99</p>
+    </p>
 </div>
 
 <div class="product">
-    <img src="img/doce-3.jpg" style="width: 276px; height: 343px" alt="torta">
+    <img src="img/doce-3.jpg" style="width: 276px; height: 343px"
+         alt="tortasabores"
+         class="product-image"
+         data-product-id="tortasabores">
     <h2>Torta Sabores</h2>
-    <p>Crocantes, cremosas e cheias de sabor!
-        Nossas tortas são feitas com ingredientes selecionados e um toque especial para encantar seu paladar.
+        <p>Crocantes, cremosas e cheias de sabor!
+            Nossas tortas são feitas com ingredientes selecionados e um toque especial para encantar seu paladar.
+    </p>
+    
+    
     <p class="price">🔥 Tortas inteiras a partir de R$ 59,99 <br>
         🔥 Fatias individuais por R$ 10,99</p>
+    
 </div>
 
 <div class="product">
-    <img src="img/doce-4.jpg" style="width: 276px; height: 343px" alt="bolo">
+    <img src="img/doce-4.jpg" style="width: 276px; height: 343px"
+         alt="bolosabores"
+         class="product-image"
+         data-product-id="bolosabores">
     <h2>Bolo Sabores</h2>
+
     <p>Nada como um bolo fofinho e delicioso para tornar seu dia mais especial!
         Nossos bolos são feitos com muito carinho para cada momento.
+
+    
+   
     <p class="price">🔥 Bolos inteiros a partir de R$ 69,99 <br> 🔥 Fatias individuais por R$ 10,99</p>
-</div>
 
 <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
     <button class="btn btn-bd-primary py-0 dropdown-toggle d-flex align-items-center"
@@ -187,6 +216,19 @@
         </li>
     </ul>
 </div>
+    <!-- Modal -->
+<div id="product-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h2 id="modal-title"></h2>
+      <ul id="modal-ingredients"></ul>
+      <p id="modal-lactose"></p>
+    </div>
+  </div>
+  
+  <!-- No final do body -->
+  <script src="script.js"></script>
+
 
 </body>
 
