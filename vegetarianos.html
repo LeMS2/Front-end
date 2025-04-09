@@ -103,38 +103,58 @@
 <h1>Vegetarianos</h1>
 
 <div class="product">
-    <img src="img/veggie.jpg" style="width: 276px; height: 343px" alt="Hambúrguer Veggie">
+    <img src="img/veggie.jpg" style="width: 276px; height: 343px"
+    alt="hamburgerveg"
+         class="product-image"
+         data-product-id="hamburgerveg">
     <h2>Hambúrguer</h2>
     <p>Uma explosão de sabor e saúde! Nosso hambúrguer é feito com uma combinação nutritiva de grão-de-bico, aveia e temperos especiais. Acompanha molho especial.</p>
     <p class="price">🔥 Tudo isso por apenas R$ 28,00! Peça agora e experimente!</p>
+   
 </div>
 
 <div class="product">
-    <img src="img/veggie-1.jpg" style="width: 276px; height: 343px" alt="Coxinha de Jaca">
+    <img src="img/veggie-1.jpg" style="width: 276px; height: 343px" 
+    alt="jaca"
+         class="product-image"
+         data-product-id="jaca">
     <h2>Coxinha de Jaca</h2>
     <p>A clássica coxinha, agora em uma versão irresistível e 100% vegetal! Massa crocante e recheio suculento de jaca desfiada, temperada no ponto certo para um sabor incrível.</p>
     <p class="price">🔥 Apenas R$ 10,00 a unidade! Peça já a sua!</p>
+    
 </div>
 
 <div class="product">
-    <img src="img/veggie-2.jpg" style="width: 276px; height: 343px" alt="Nuggets de Brócolis">
+    <img src="img/veggie-2.jpg" style="width: 276px; height: 343px" 
+    alt="nuggetsveg"
+         class="product-image"
+         data-product-id="nuggetsveg">
     <h2>Nuggets</h2>
     <p>Crocantes por fora e macios por dentro! Nuggets feitos de brócolis e queijo, empanados na medida certa e assados ou fritos para garantir aquele sabor especial.</p>
     <p class="price">🔥 Apenas R$ 19,00 a porção! Peça agora e aproveite!</p>
+    
 </div>
 
 <div class="product">
-    <img src="img/veggie-3.jpg" style="width: 276px; height: 343px" alt="Bowl de Grãos e Legumes">
+    <img src="img/veggie-3.jpg" style="width: 276px; height: 343px" 
+    alt="grao"
+         class="product-image"
+         data-product-id="grao">
     <h2>Bowl de Grãos</h2>
     <p>Uma refeição completa e cheia de nutrientes! Nosso bowl leva quinoa, lentilha, cenoura ralada, pepino, beterraba e um toque especial de molho tahine com limão.</p>
     <p class="price">🔥 Tudo isso por apenas R$ 27,00! Peça agora e sinta o sabor da saúde!</p>
+   
 </div>
 
 <div class="product">
-    <img src="img/veggie-4.jpg" style="width: 276px; height: 343px" alt="Quiche de Legumes">
+    <img src="img/veggie-4.jpg" style="width: 276px; height: 343px"
+    alt="quiche"
+         class="product-image"
+         data-product-id="quiche">
     <h2>Quiche</h2>
     <p>Massa leve e crocante recheada com um mix de legumes frescos e queijo cremoso. Uma opção deliciosa e equilibrada para qualquer momento do dia!</p>
     <p class="price">🔥 Apenas R$ 21,00 a fatia! Peça agora e se delicie!</p>
+    
 </div>
 
 <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
@@ -188,6 +208,18 @@
         </li>
     </ul>
 </div>
+    <!-- Modal -->
+<div id="product-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h2 id="modal-title"></h2>
+      <ul id="modal-ingredients"></ul>
+      <p id="modal-lactose"></p>
+    </div>
+  </div>
+  
+  <!-- No final do body -->
+  <script src="script.js"></script>
 
 </body>
 
