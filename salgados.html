@@ -100,46 +100,57 @@
 <h1>Salgados</h1>
 
 <div class="product">
-    <img src="img/salgado.jpg" alt="Esfirra">
+    <img src="img/salgado.jpg" style="width: 276px; height: 343px"
+         alt="esfirra"
+         class="product-image"
+         data-product-id="esfirra">
     <h2>Esfirra</h2>
     <p>Massa leve, recheio irresistível e aquele tempero especial que faz toda a diferença!
         <br>
-        📍 Escolha entre carne, frango, queijo ou a versão especial da casa!</p>
+        📍 Escolha entre carne, frango, queijo ou a versão especial da casa!</
+    </p>
+    
+    
     <p class="price">🔥 Apenas R$ 4,99 cada! (ou leve 3 por R$ 13,99)</p>
+
 </div>
 
 <div class="product">
-    <img src="img/salgado-2.jpg" alt="Folhado Recheado">
+    <img src="img/salgado-2.jpg" style="width: 276px; height: 343px"
+         alt="folhado"
+         class="product-image"
+         data-product-id="folhado">
     <h2>Folhado</h2>
     <p>Delicie-se com nosso irresistível salgado folhado! Feito com massa dourada e crocante, ele esconde um recheio cremoso e cheio de sabor.
         <br>
         📍 Seja queijo, frango ou carne.</p>
-    <p class="price">🔥 Apenas R$ 6,99 cada! (ou leve 2 por R$ 12,99)</p>
+
+        <p class="price">🔥 Apenas R$ 6,99 cada! (ou leve 2 por R$ 12,99)</p>
+
 </div>
 
 <div class="product">
-    <img src="img/salgado-3.jpg" alt="Pastel Assado">
+    <img src="img/salgado-3.jpg" alt="Pastel Assado"
+    alt="pastel"
+         class="product-image"
+         data-product-id="pastel">
     <h2>Pastel Assado</h2>
     <p>Sabor incrível e crocante! Nosso pastel assado é feito com uma massa leve e recheado com ingredientes frescos e de qualidade.
         <br>Perfeito para qualquer hora do dia!</p>
     <p class="price">🔥 Experimente agora por apenas R$ 8,00 </p>
+    
 </div>
 
 <div class="product">
-    <img src="img/salgado-6.jpg" style="width: 276px; height: 343px" alt="Coxinha">
+    <img src="img/salgado-6.jpg" style="width: 276px; height: 343px"
+    alt="coxinha"
+         class="product-image"
+         data-product-id="coxinha ">
     <h2>Coxinha</h2>
     <p>Uma coxinha sequinha, crocante por fora e recheada com frango desfiado super saboroso!
         <br>Para deixar a experiência ainda melhor, acompanha maionese.</p>
     <p class="price">🔥 Tudo isso por apenas R$8,00! Peça agora e aproveite!</p>
-</div>
 
-<div class="product">
-    <img src="img/salgado-5.jpg" alt="Palito de Queijo">
-    <h2>Palito de Queijo</h2>
-    <p>Nossos palitos de queijo são feitos com uma casquinha dourada e irresistível.
-        <br>
-        Acompanhados de um molho especial, ficam ainda mais saborosos!</p>
-    <p class="price">🔥 Experimente por apenas R$ 4,00 cada!</p>
 </div>
 
 <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
@@ -193,6 +204,19 @@
         </li>
     </ul>
 </div>
+
+    <!-- Modal -->
+<div id="product-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h2 id="modal-title"></h2>
+      <ul id="modal-ingredients"></ul>
+      <p id="modal-lactose"></p>
+    </div>
+  </div>
+  
+  <!-- No final do body -->
+  <script src="script.js"></script>
 </body>
 
 <footer class="text-center mt-4">
